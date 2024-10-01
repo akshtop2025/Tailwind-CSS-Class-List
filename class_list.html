@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Class List</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6 text-gray-800">
+  <div class="container mx-auto">
+    <h1 class="text-3xl font-bold text-center mb-6">Tailwind CSS Class List</h1>
+    
+    <!-- Table Wrapper -->
+    <div class="overflow-x-auto">
+      <!-- Table -->
+      <table class="min-w-full bg-white border-collapse border border-gray-300">
+        
+        <!-- Table Headers -->
+        <thead>
+          <tr>
+            <th class="border border-gray-300 px-4 py-2 text-left bg-gray-200">Category</th>
+            <th class="border border-gray-300 px-4 py-2 text-left bg-gray-200">Class</th>
+            <th class="border border-gray-300 px-4 py-2 text-left bg-gray-200">Description</th>
+          </tr>
+        </thead>
+        
+        <!-- Table Body -->
+        <tbody>
+
+          <!-- Layout & Container -->
+          <tr>
+            <td class="border border-gray-300 px-4 py-2" rowspan="10">Layout & Container</td>
+            <td class="border border-gray-300 px-4 py-2">container</td>
+            <td class="border border-gray-300 px-4 py-2">Centers and applies padding based on the screen size</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">block</td>
+            <td class="border border-gray-300 px-4 py-2">Display block</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">inline-block</td>
+            <td class="border border-gray-300 px-4 py-2">Display inline-block</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">inline</td>
+            <td class="border border-gray-300 px-4 py-2">Display inline</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">flex</td>
+            <td class="border border-gray-300 px-4 py-2">Display flex</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">inline-flex</td>
+            <td class="border border-gray-300 px-4 py-2">Display inline-flex</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">grid</td>
+            <td class="border border-gray-300 px-4 py-2">Display grid</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">hidden</td>
+            <td class="border border-gray-300 px-4 py-2">Hides element (display: none)</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">overflow-hidden/auto/scroll</td>
+            <td class="border border-gray-300 px-4 py-2">Controls content overflow (hidden, auto, or scroll)</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">object-contain/cover</td>
+            <td class="border border-gray-300 px-4 py-2">Object-fit control for images</td>
+          </tr>
+          
+          <!-- Spacing (Padding & Margin) -->
+          <tr>
+            <td class="border border-gray-300 px-4 py-2" rowspan="6">Spacing (Padding & Margin)</td>
+            <td class="border border-gray-300 px-4 py-2">p-{size}</td>
+            <td class="border border-gray-300 px-4 py-2">Padding (e.g., p-4, p-0, p-x-4)</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">pt-{size}, pb-{size}</td>
+            <td class="border border-gray-300 px-4 py-2">Padding Top / Bottom</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">pl-{size}, pr-{size}</td>
+            <td class="border border-gray-300 px-4 py-2">Padding Left / Right</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">m-{size}</td>
+            <td class="border border-gray-300 px-4 py-2">Margin (e.g., m-4, m-0, m-auto)</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">mt-{size}, mb-{size}</td>
+            <td class="border border-gray-300 px-4 py-2">Margin Top / Bottom</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">ml-{size}, mr-{size}</td>
+            <td class="border border-gray-300 px-4 py-2">Margin Left / Right</td>
+          </tr>
+
+          <!-- Typography -->
+          <tr>
+            <td class="border border-gray-300 px-4 py-2" rowspan="9">Typography</td>
+            <td class="border border-gray-300 px-4 py-2">text-xs to text-6xl</td>
+            <td class="border border-gray-300 px-4 py-2">Text size</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">font-thin to font-black</td>
+            <td class="border border-gray-300 px-4 py-2">Font weight from thin to black</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">italic / not-italic</td>
+            <td class="border border-gray-300 px-4 py-2">Italic or not</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">underline / no-underline</td>
+            <td class="border border-gray-300 px-4 py-2">Text decoration</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">uppercase / lowercase / capitalize</td>
+            <td class="border border-gray-300 px-4 py-2">Text transformation</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">tracking-{size}</td>
+            <td class="border border-gray-300 px-4 py-2">Letter spacing (e.g., tracking-wider)</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">leading-{size}</td>
+            <td class="border border-gray-300 px-4 py-2">Line-height control (e.g., leading-loose)</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">text-left/right/center</td>
+            <td class="border border-gray-300 px-4 py-2">Text alignment</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">truncate</td>
+            <td class="border border-gray-300 px-4 py-2">Truncate text overflow</td>
+          </tr>
+          
+          <!-- Add more sections similarly... -->
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</body>
+</html>
